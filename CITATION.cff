@@ -24,6 +24,10 @@ authors:
     family-names: Chua
     email: s.chua@sheffield.ac.uk
     affiliation: University of Sheffield
+  - given-names: Christopher J
+    family-names: Norooz
+    email: CJNoroozi1@sheffield.ac.uk
+    affiliation: University of Sheffield
 repository-code: 'https://github.com/SheffieldMLtracking'
 abstract: >-
   Using Data Driven Artificial Intelligence to Analyse
