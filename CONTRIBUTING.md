@@ -41,4 +41,4 @@ When working on changes, you can make a [development release](https://peps.pytho
 
 ## Packaging
 
-Each code repository contains a [Python package](https://packaging.python.org/en/latest/overview/) that is [specified using a pyproject.toml file](https://packaging.python.org/en/latest/guides/). These packages are published to the Python Package Index (PyPI) so they can be easily installed by anyone.
+Each code repository contains a [Python package](https://packaging.python.org/en/latest/overview/) that is [specified using a pyproject.toml file](https://packaging.python.org/en/latest/guides/). These packages are published to the [Python Package Index](https://pypi.org/) (PyPI) so they can be easily installed by anyone.
