@@ -1,10 +1,20 @@
 # Contributing guide
 
-These are the [guidelines](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) for contributing to these code repositories.
+We welcome new users and contributors to this project. This document contains the [guidelines](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) for contributing to these code repositories.
 
-# Version control
+# How to contribute
+
+## Getting help
+
+Please [create an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) or contact [Mike Smith](https://www.sheffield.ac.uk/dcs/people/academic/michael-smith).
+
+## Version control
 
 Please create branches and request for them to be merged using [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+
+## Proposing changes
+
+Feel free to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) these repositories to propose new changes.
 
 # Releases
 
