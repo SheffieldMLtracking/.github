@@ -18,7 +18,14 @@ Feel free to [fork](https://docs.github.com/en/pull-requests/collaborating-with-
 
 # Releases
 
-[Releasing projects on GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github)
+See: [Releasing projects on GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github)
+
+## Publishing a new release
+
+1. Incrememnt the version number in the code repository by editing the value of the `__version__` variable in `__init__.py`
+2. [Create a new release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+3. Click "Choose a tag" and enter the version number
+4. TODO
 
 ## Version numbers
 
