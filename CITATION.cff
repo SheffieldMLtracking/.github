@@ -1,4 +1,10 @@
+# About CITATION files
+# You can add a CITATION file to your repository to help users correctly cite your software.
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files
+
+# About CITATION.cff file format
 # https://citation-file-format.github.io/
+
 # This CITATION.cff file was generated with cffinit.
 # https://citation-file-format.github.io/cff-initializer-javascript/
 
