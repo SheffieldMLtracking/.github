@@ -27,6 +27,8 @@ See: [Releasing projects on GitHub](https://docs.github.com/en/repositories/rele
 3. Click "Choose a tag" and enter the version number
 4. TODO
 
+The Python package will be [automatically published to PyPI](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/) using a [GitHub Actions](https://docs.github.com/en/actions) workflow.
+
 ## Version numbers
 
 The [PEP 440](https://peps.python.org/pep-0440/) standard means that each release has a [version number](https://semver.org/) such as `v1.4.2` where the three parts are `MAJOR.MINOR.PATCH` where
@@ -36,3 +38,7 @@ The [PEP 440](https://peps.python.org/pep-0440/) standard means that each releas
 - `PATCH` version when you make backward compatible bug fixes
 
 When working on changes, you can make a [development release](https://peps.python.org/pep-0440/#developmental-releases) such as `v0.3.dev2`.
+
+## Packaging
+
+Each code repository contains a [Python package](https://packaging.python.org/en/latest/overview/) that is [specified using a pyproject.toml file](https://packaging.python.org/en/latest/guides/). These packages are published to the Python Package Index (PyPI) so they can be easily installed by anyone.
