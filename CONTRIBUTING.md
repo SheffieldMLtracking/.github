@@ -34,3 +34,5 @@ The [PEP 440](https://peps.python.org/pep-0440/) standard means that each releas
 - `MAJOR` version when you make _incompatible_ API changes
 - `MINOR` version when you add functionality in a _backward compatible_ manner
 - `PATCH` version when you make backward compatible bug fixes
+
+When working on changes, you can make a [development release](https://peps.python.org/pep-0440/#developmental-releases) such as `v0.3.dev2`.
