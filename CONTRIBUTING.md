@@ -8,7 +8,7 @@ We welcome new users and contributors to this project. This document contains th
 
 Please [create an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) or contact [Mike Smith](https://www.sheffield.ac.uk/dcs/people/academic/michael-smith).
 
-## Version control
+# Version control
 
 Please create branches and request for them to be merged using [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
@@ -39,6 +39,18 @@ The [PEP 440](https://peps.python.org/pep-0440/) standard means that each releas
 
 When working on changes, you can make a [development release](https://peps.python.org/pep-0440/#developmental-releases) such as `v0.3.dev2`.
 
-## Packaging
+# Packaging
 
 Each code repository contains a [Python package](https://packaging.python.org/en/latest/overview/) that is [specified using a pyproject.toml file](https://packaging.python.org/en/latest/guides/). These packages are published to the [Python Package Index](https://pypi.org/) (PyPI) so they can be easily installed by anyone.
+
+# Coding style conventions
+
+[Epytext](https://epydoc.sourceforge.net/manual-epytext.html)
+```python
+def my_function(aardvark_count: float):
+  """
+  This is my code.
+
+  @param aardvark_count: The number of Aardvarks.
+  """
+```
