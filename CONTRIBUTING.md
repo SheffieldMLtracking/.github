@@ -45,7 +45,12 @@ Each code repository contains a [Python package](https://packaging.python.org/en
 
 # Coding style conventions
 
-[Epytext](https://epydoc.sourceforge.net/manual-epytext.html)
+See: [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/).
+
+## Documentation strings
+
+[Documentation strings](https://peps.python.org/pep-0008/#documentation-strings) ([PEP 257](https://peps.python.org/pep-0257/)) describe how a function works. One style is [Epytext](https://epydoc.sourceforge.net/manual-epytext.html):
+
 ```python
 def my_function(aardvark_count: float):
   """
