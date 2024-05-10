@@ -11,7 +11,7 @@ Please read the [contribution guide](CONTRIBUTING.md).
 
 The images from [bee_track](https://github.com/lionfish0/bee_track) (are, or soon will be) stored in this file structure:
 
-<session>/<set>/<device id>/<camera id>/<timestamp>_<photo id>.np
+`<session>/<set>/<device id>/<camera id>/<timestamp>_<photo id>.np`
 
 - the 'session' is what calibration will work on -- it will assume all the photos from within the same session have the same alignment. If a camera gets moved, a new session folder will be needed.
 - the 'set' is for the convenience of the research -- it could be e.g. "learningflight12" or "tomato23". A special set called 'cal' is for the use of the calibration tool, and contains photos of the calibration QR code for 3d camera registration.
