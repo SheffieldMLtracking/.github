@@ -67,21 +67,21 @@ The images from [bee_track](https://github.com/lionfish0/bee_track) (are, or soo
                           20240510_092503_202301_000016.np                       
                             :               :       :                        
 </pre>
-3. Use the automated tag detection to find the tags in the photos (this can take a while for lots of photos, so you might want to run it on a subset). e.g.
+2. Use the automated tag detection to find the tags in the photos (this can take a while for lots of photos, so you might want to run it on a subset). e.g.
 `btretrodetect ~/beephotos/20240510 --from 10:30 --to 14:30` @Joe/Chris - it might make sense that this command line tool can be given any step in the directory structure:
 `btretrodetect ~/beephotos/20240510/session_20240510_092314/learningflight1`
 or could it even take wildcards? `btretrodetect ~/beephotos/20240510/session_20240510_092314/*/box1`
 This will update or create a .json file next to each .np image file (same name but for the .json).
 
-5. A human needs to manually click on the tags to confirm them:
+3. A human needs to manually click on the tags to confirm them:
 `btviewer ~/beephotos/20240510/session_20240510_092314/learningflight1`
 This will either update or create a .json file next to each .np image file.
 
-6. Calibration will be needed:
+4. Calibration will be needed:
 `btcalibrate ~/beephotos/20240510/session_20240510_092314` will run the calibration on just this session (it will look for a 'cal' folder). The results will be put into a .json file in the session_20240510_092314 root folder. The commandline tool will also report diagnoistics.
 One could call `btviewer ~/beephotos/20240510/session_20240510_092314/cal` to view the results of the calibration (check that it has been done correctly).
 
-7. Once the bees have been manually labelled, and the calibration has been done, we can recompute the 3d flight path.
+5. Once the bees have been manually labelled, and the calibration has been done, we can recompute the 3d flight path.
 `btinferpath ~/beephotos/20240510/session_20240510_092314/learningflight1 --from 09:23:14 --to 09:23:17`
 this will create a json file:
 `infer.json`
@@ -89,7 +89,7 @@ if there is a time range then this will be included in the filename:
 `infer_092314_092317.json`
 One option (on by default) is to include in the json the x/y coordinates projected onto each camera.
 
-9. Finally, you might want to see the results using btviewer:
+6. Finally, you might want to see the results using btviewer:
 `btviewer ~/beephotos/20240510/session_20240510_092314/learningflight1`
 this will look for an infer.json or infer_<starttime>_<endtime>.json and pull out the projected coordinates from that for the camera.
 
