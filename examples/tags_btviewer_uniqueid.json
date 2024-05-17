@@ -8,11 +8,13 @@
     {
       "x": 123,
       "y": 456,
+      "confident": true,
       "label": "not the bees!"
     },
     {
       "x": 789,
       "y": 123,
+      "confident": false,
       "label": "to bee or not to bee"
     }
   ]
