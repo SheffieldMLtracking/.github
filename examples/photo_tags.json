@@ -1,0 +1,19 @@
+{
+  "provenance": {
+    "source": "btviewer",
+    "version": "0.0.1",
+    "mode": "manual"
+  },
+  "tags": [
+    {
+      "x": 123,
+      "y": 456,
+      "label": "not the bees!"
+    },
+    {
+      "x": 789,
+      "y": 123,
+      "label": "to bee or not to bee"
+    }
+  ]
+}
