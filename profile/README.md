@@ -1,7 +1,8 @@
 # Sheffield Machine Learning Tracking
 
-- http://michaeltsmith.org.uk/
-- https://www.sheffield.ac.uk/dcs/people/academic/michael-smith
+Please see the [BBSRC Project: Pesticide Induced Changes to Pollinator Behaviour](https://github.com/orgs/SheffieldMLtracking/projects/1/) board on GitHub Projects.
+
+[Mike's](https://www.sheffield.ac.uk/dcs/people/academic/michael-smith) website: [michaeltsmith.org.uk](http://michaeltsmith.org.uk/)
 
 # Contributing
 
