@@ -4,7 +4,7 @@
 
 # Contributing
 
-Please read the [contribution guide](CONTRIBUTING.md).
+Please read the [contribution guide](../CONTRIBUTING.md).
 
 Also see the [BBSRC Project: Pesticide Induced Changes to Pollinator Behaviour](https://github.com/orgs/SheffieldMLtracking/projects/1/) board on GitHub Projects.
 
