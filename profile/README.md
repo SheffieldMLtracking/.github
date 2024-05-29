@@ -18,7 +18,7 @@ The images from [bee_track](https://github.com/lionfish0/bee_track) (are, or soo
 - the 'set' is for the convenience of the research -- it could be e.g. "learningflight12" or "tomato23". A special set called 'cal' is for the use of the calibration tool, and contains photos of the calibration QR code for 3d camera registration.
 - the 'device id' is a unique label for each of the "boxes".
 - the 'camera id' is the id of the camera inside the box (there are sometimes two or more internal cameras).
-- the 'timestamp' is a YYYMMDD_HHMMSS.UUUUUU string of when the photo was taken.
+- the 'timestamp' is a YYYMMDD_HHMMSS.UUUUUU string of when the photo was taken in the UTC time zone
 - the 'photo_id' is an incrementing label (000000,000001,000002,...)
 
 # Typical 3d Flight Path Inference Pipeline
