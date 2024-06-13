@@ -10,7 +10,7 @@ Also see the [BBSRC Project: Pesticide Induced Changes to Pollinator Behaviour](
 
 # File Structures
 
-The images from [bee_track](https://github.com/lionfish0/bee_track) (are, or soon will be) stored in this file structure:
+The images from [bee_track](https://github.com/lionfish0/bee_track) are stored in this file structure:
 
 `<session>/<set>/<device id>/<camera id>/<timestamp>_<photo id>.np`
 
