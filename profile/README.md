@@ -94,4 +94,14 @@ One option (on by default) is to include in the json the x/y coordinates project
 `btviewer ~/beephotos/20240510/session_20240510_092314/learningflight1`
 this will look for an infer.json or infer_<starttime>_<endtime>.json and pull out the projected coordinates from that for the camera.
 
+# Contents of json metadata files
 
+Each image may have an associated set of points (generated from retrodetect, alignment or the btviewer).
+
+This consists of a list of points, for example:
+<pre>
+[
+{"x": 123, "y": 456, "label": "test", "source": "retrodetect", "version": 1.0},
+{"x": 200, "y": 100, "label": "another", "source": "btqviewer", "version": 0.1}
+]
+</pre>
