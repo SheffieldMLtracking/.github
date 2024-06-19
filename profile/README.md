@@ -96,4 +96,11 @@ this will look for an infer.json or infer_<starttime>_<endtime>.json and pull ou
 
 # Contents of json metadata files
 
-Each image may have an associated set of points (generated from retrodetect, alignment or the btviewer). See [example](https://github.com/SheffieldMLtracking/.github/blob/main/examples/tags_btviewer_uniqueid.json).
+Each image may have an associated set of points (generated from btretrodetect, btalignment, the btviewer or btinference).
+Each tool adds a directory to the folder containing the images, for example, in `~/beephotos/2024-05-10/session2/learningflight1/box3/ABC1232141/retrodectect'
+Then inside this folder, are json files, up to one for each image in the images-folder. Each one is the name of the image but with .np replaced with .json
+For example: `20240613_10+29+45.869012_0014.json`.
+
+So the viewer needs to check what directories exist, and then look for all the json files with the same name.
+
+Not sure if this [example](https://github.com/SheffieldMLtracking/.github/blob/main/examples/tags_btviewer_uniqueid.json) is currently correct.
