@@ -78,9 +78,9 @@ This will update or create a .json file next to each .np image file (same name b
 `btviewer ~/beephotos/20240510/session_20240510_092314/learningflight1`
 This will either update or create a .json file next to each .np image file.
 
-4. Calibration will be needed:
-`btcalibrate ~/beephotos/20240510/session_20240510_092314` will run the calibration on just this session (it will look for a 'cal' folder). The results will be put into a .json file in the session_20240510_092314 root folder. The commandline tool will also report diagnoistics.
-One could call `btviewer ~/beephotos/20240510/session_20240510_092314/cal` to view the results of the calibration (check that it has been done correctly).
+4. Alignment of the cameras will be needed:
+`btalignment ~/beephotos/20240510/session_20240510_092314` will run the alignment on just this session (it will look for a 'cal', the calibrate folder). The results will be put into a .json file in the session_20240510_092314 root folder. The commandline tool will also report diagnoistics.
+One could call `btviewer ~/beephotos/20240510/session_20240510_092314/cal` to view the results of the alignment (check that it has been done correctly).
 
 5. Once the bees have been manually labelled, and the calibration has been done, we can recompute the 3d flight path.
 `btinferpath ~/beephotos/20240510/session_20240510_092314/learningflight1 --from 09:23:14 --to 09:23:17`
