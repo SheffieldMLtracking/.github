@@ -83,7 +83,7 @@ This will either update or create a .json file next to each .np image file.
 One could call `btviewer ~/beephotos/20240510/session_20240510_092314/cal` to view the results of the alignment (check that it has been done correctly).
 
 5. Once the bees have been manually labelled, and the calibration has been done, we can recompute the 3d flight path.
-`btinferpath ~/beephotos/20240510/session_20240510_092314/learningflight1 --from 09:23:14 --to 09:23:17`
+`btinference ~/beephotos/20240510/session_20240510_092314/learningflight1 --from 09:23:14 --to 09:23:17`
 this will create a json file:
 `infer.json`
 if there is a time range then this will be included in the filename:
