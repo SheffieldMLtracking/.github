@@ -1,14 +1,24 @@
 # Sheffield Machine Learning Tracking
 
-[Mike's](https://www.sheffield.ac.uk/dcs/people/academic/michael-smith) website: [michaeltsmith.org.uk](http://michaeltsmith.org.uk/)
+We will soon be explaining all the methods on our [Bug Track page](http://bugtrack.org.uk/)!
 
-# Contributing
+Other links are to [Mike's](https://www.sheffield.ac.uk/dcs/people/academic/michael-smith) website: [michaeltsmith.org.uk](http://michaeltsmith.org.uk/)
+
+# BLE Tracking
+
+We will be adding details to the [BLE Tracking page](https://sheffieldmltracking.github.io/BLETrackSite/) soon!
+
+# Retroreflector Based Tracking
+
+Some technical information about using the software tools for retroreflector-based insect tracking.
+
+## Contributing
 
 Please read the [contribution guide](../CONTRIBUTING.md).
 
 Also see the [BBSRC Project: Pesticide Induced Changes to Pollinator Behaviour](https://github.com/orgs/SheffieldMLtracking/projects/1/) board on GitHub Projects.
 
-# File Structures
+## File Structures
 
 The images from [bee_track](https://github.com/lionfish0/bee_track) are stored in this file structure:
 
@@ -21,7 +31,7 @@ The images from [bee_track](https://github.com/lionfish0/bee_track) are stored i
 - the 'timestamp' is a YYYMMDD_HHMMSS.UUUUUU string of when the photo was taken in the UTC time zone
 - the 'photo_id' is an incrementing label (000000,000001,000002,...)
 
-# Typical 3d Flight Path Inference Pipeline
+## Typical 3d Flight Path Inference Pipeline
 
 1. Copy all the separate camera systems to a single location (this should result in the file structure above). For this example we'll assume they are:
 <pre>
@@ -94,7 +104,7 @@ One option (on by default) is to include in the json the x/y coordinates project
 `btviewer ~/beephotos/20240510/session_20240510_092314/learningflight1`
 this will look for an infer.json or infer_<starttime>_<endtime>.json and pull out the projected coordinates from that for the camera.
 
-# Contents of json metadata files
+## Contents of json metadata files
 
 Each image may have an associated set of points (generated from btretrodetect, btalignment, the btviewer or btinference).
 Each tool adds a directory to the folder containing the images, for example, in `~/beephotos/2024-05-10/session2/learningflight1/box3/ABC1232141/retrodectect'
